@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Noto+Sans:wght@400;700&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #07a4bd;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #FFFF00;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a:hover{
+    color: #FFFF00;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 380;
+}
+
+.login-button button {
+    border: none;
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+.login-button i:hover{
+    color: rgb(24, 139, 233);
+}
+
+.login-button i{
+    color: black;
+}
+
+.mapeamento {
+    margin-top: 30px;
+    font-family: 'Poppins', noto sans;
+    text-align: center;
+    font-size: 25px;
+}
+
+.descricao {
+    margin-top: 0px;
+    padding: 10px;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 22px;
+}
+
+.mapa {
+    margin-top: 10px;
+    font-family: 'Poppins', noto sans;
+    text-align: center;
+    font-size: 25px;
+}
+
+#map {
+    margin: 10px;
+    height: 500px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    box-shadow: 0px 3px 30px #464646;
+    border: 5px solid #242739;
+}
+
+#imagem-overlay {
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    width: 520x;
+    height: 400px;
+    background-color: #046677;
+    border-radius: 20px;
+    padding: 10px;
+    display: none;
+    z-index: 9999;
+}
+
+#imagem-overlay img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#p {
+    font-family: 'Comic-Sans';
+    font-size: 1.5rem;  
+    color: rgb(4, 4, 17);
+}
+
+#p2 {
+    text-align: center;
+    font-family: 'Comic-Sans';
+    font-size: 1.5rem;  
+    color: rgb(4, 4, 17);
+}
