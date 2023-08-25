@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <link rel="stylesheet" href="mapa.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Mapa Instituto</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1 id="texto">ÍCONE</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#" class="btn"><i class="fa-solid fa-user"></i></a></button>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="mapeamento">Mapeamento Colaborativo - INSTITUTO</h1>
+
+    <div class="descricao"><strong>Bem-vindo</strong> à apresentação do nosso mapa da região...</div>
+
+    <h1 class="mapa">Mapa INSTITUTO</h1>
+
+    <div id="map"></div>
+    <div id="imagem-overlay">
+        <img id="imagem" alt="Imagem">
+        <p id="p"></p>
+        <p id="p2"></p>
+    </div>
+        <script src="locais.js"></script>
+
+
+</body>
+</html>
